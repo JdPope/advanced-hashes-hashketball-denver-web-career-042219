@@ -91,8 +91,15 @@ end
   return player_numbers_array
 end
         
-        
-      
+
+
+def player_stats(name)
+game_hash.each do |location, team_data|
+  if team_data[:players].include?name
+    return team_data[:players][name]
+end
+end
+end      
       
       
       

@@ -54,8 +54,6 @@ def num_points_scored(points)
 end
 end
 end
-end
-end
 
 
 

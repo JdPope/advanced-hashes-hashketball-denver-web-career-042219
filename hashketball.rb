@@ -74,7 +74,7 @@ end
 def team_names(game_hash)
   team_names_array = []
   game_hash.each do |location, team_data|
-    team_names_array<< team_data
+    team_names_array<< team_data[:team_name]
   end
   return team_names_array
 end

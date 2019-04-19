@@ -46,12 +46,10 @@ def game_hash
     }}}
 end
 
-def num_points_scored(points)
+def num_points_scored(name)
   game_hash.each do |location, team_data|
-  team_data[:players].each do |player_name,player_data|
-    player_data[:points]
-end
-end
+  team_data[:players]
+
 end
 return data_item
 end

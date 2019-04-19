@@ -80,6 +80,8 @@ def team_names
 end
 
  def player_numbers(team)
-   player_numers_array=[]
+   player_numbers_array=[]
+    if game_hash[team][:team_name]
+      player_numbers_array<< team_data[:players][]
    
    

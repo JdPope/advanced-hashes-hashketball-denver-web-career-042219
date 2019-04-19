@@ -83,4 +83,13 @@ end
    player_numbers_array=[]
    game_hash.each do |location, team_data|
     if team_data[:team_name] == team
-      player_numbers_array<< team_data[:colors]
+      team_data[:team_name][:players].each do |name, number|
+        player_numbers_array<< name[:number]
+        
+        
+      
+      
+      
+      
+      
+      

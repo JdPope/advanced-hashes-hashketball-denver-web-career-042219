@@ -79,4 +79,7 @@ def team_names
   return team_names_array
 end
 
-  
+ def player_numbers(team)
+   player_numers_array=[]
+   
+   

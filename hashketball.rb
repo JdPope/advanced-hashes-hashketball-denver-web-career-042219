@@ -51,6 +51,7 @@ def num_points_scored(name)
   if team_data[:players].include?name
     return team_data[:players][name][:points]
 end
+end
 return 
 end
 

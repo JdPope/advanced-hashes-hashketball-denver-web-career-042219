@@ -85,6 +85,11 @@ end
     if team_data[:team_name] == team
       team_data[:players].each do |name, player_data|
         player_numbers_array<< player_data[:number]
+      end
+    end
+  end
+  return player_numbers_array
+end
         
         
       

@@ -50,7 +50,7 @@ def num_points_scored(points)
   game_hash.each do |location, team_data|
   team_data.each do |attribute, data|
     data.each do
-     return |data_item|
+     |data_item|
 end
 end
 end

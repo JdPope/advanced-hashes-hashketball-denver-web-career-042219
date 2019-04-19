@@ -52,7 +52,6 @@ def num_points_scored(name)
     return team_data[:players][name][:points]
 end
 end
-return 
 end
 
 

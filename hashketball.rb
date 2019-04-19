@@ -53,9 +53,10 @@ def num_points_scored(points)
      |data_item|
 end
 end
+end
 return data_item
 end
-s
+
 
 
 

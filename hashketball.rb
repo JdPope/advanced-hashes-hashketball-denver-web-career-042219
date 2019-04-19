@@ -110,6 +110,7 @@ def big_shoe_rebounds
       player_with_largest = name
     end
   end
+ end
    game_hash.each do |location, team_data|
   if team_data[:players].include?player_with_largest
     return team_data[:players][player_with_largest][:rebounds]

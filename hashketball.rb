@@ -54,7 +54,8 @@ end
 end
 end
 
-
+def shoe_size(name)
+  
 
 
 

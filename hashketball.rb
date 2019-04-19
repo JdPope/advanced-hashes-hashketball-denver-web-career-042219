@@ -48,7 +48,7 @@ end
 
 def num_points_scored(points)
   game_hash.each do |location, team_data|
-    binding.pry
+  return location
 end
 end
 

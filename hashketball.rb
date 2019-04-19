@@ -55,7 +55,12 @@ end
 end
 
 def shoe_size(name)
-  
+   game_hash.each do |location, team_data|
+  if team_data[:players].include?name
+    return team_data[:players][name][:shoe]
+end
+end
+end
 
 
 
